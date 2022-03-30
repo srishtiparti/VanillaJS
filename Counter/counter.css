@@ -1,0 +1,21 @@
+.container{
+    margin: 20% 40%;
+    text-align: center;
+}
+
+.button{
+    padding: 2%;
+    margin-right: 3%;
+    margin-top: 2%;
+    font-size: 115%;
+    border: 3px solid black;
+}
+.button:hover{
+    color: aliceblue;
+    background-color: black;
+    cursor: pointer;
+}
+#value{
+    color: red;
+    font-size: 120%;
+}

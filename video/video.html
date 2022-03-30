@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="video.css">
+</head>
+
+<body>
+    <!-- adding preloader -->
+    <div class="preloader">
+        <img src="preloader.gif" alt="preloader" class="preloader-img" />
+    </div>
+    <header>
+        <video class="video-container" control muted autoplay loop>
+            <source src="video.mp4" type="video/mp4"/>
+        </video>
+        <h1>Video Player</h1>
+        <div class="switch-btn">
+            <span>Play</span>
+            <span>Pause</span>
+            <span class="switch"></span>
+        </div>
+    </header>
+    <script src="video.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Scrolling</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav id="nav">
+            <div class="nav-center">
+                <!-- nav header -->
+                <div class="nav-header">
+                    <a href="navbar.html"><img src="images/logo.webp" class="logo" alt="logo" /> <span class="logo-text">Pro Projecto</span></a>
+                    <button class="nav-toggle">
+                      <i class="fas fa-bars fa-lg"></i>
+                    </button>
+                </div>
+                <!-- links -->
+                <div class="links-container">
+                    <ul class="links">
+                        <li>
+                            <a href="#home" class="scroll-link">home</a>
+                        </li>
+                        <li>
+                            <a href="#about-us" class="scroll-link">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#services" class="scroll-link">services</a>
+                        </li>
+                        <li>
+                            <a href="#tours" class="scroll-link">tours</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="scroll-link">contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- social media -->
+                <ul class="social-icons">
+                    <li>
+                        <a href="https://www.facebook.com">
+                            <img src="images/facebook.png" class="logo" alt="logo" class="image" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitter.com">
+                            <img src="images/twitter.png" class="logo" alt="logo" class="image" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com">
+                            <img src="images/instagram.png" class="logo" alt="logo" class="image" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com">
+                            <img src="images/linkedin.png" class="logo" alt="logo" class="image" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- <img src="./images/main-image.jpg" class="main-image" alt="main-image" /> -->
+        <section id="home" class="intro">
+            <div class="intro-text">
+                <h2 class="title">Take A Stroll In Nature</h2>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi cumque recusandae sapiente ducimus quod, asperiores repudiandae! Cum doloribus minima dignissimos?</h4>
+            </div>
+        </section>
+    </header>
+    <!-- adding home section -->
+    <section id="about-us" class="section">
+        <div class="title">
+            <h2> About <span>Us</span></h2>
+        </div>
+    </section>
+    <!-- adding service section -->
+    <section id="services" class="section">
+        <div class="title">
+            <h2>Our <span>Services</span></h2>
+        </div>
+    </section>
+    <!-- adding tour section -->
+    <section id="tours" class="section">
+        <div class="title">
+            <h2> Our <span>tours</span></h2>
+        </div>
+    </section>
+    <!-- adding contact section -->
+    <section id="contact" class="section">
+        <div class="title">
+            <h2>Our <span>Contact Information</span></h2>
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="footer-text"> Copyright &copy; Srishti Parti <span id="year"></span>. All rights reseved.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>

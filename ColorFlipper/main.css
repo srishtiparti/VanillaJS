@@ -1,0 +1,55 @@
+body{
+    padding-top: 0.1%;
+}
+#nav_menu ul{
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	
+}
+nav{
+    margin: 0.5%;
+}
+
+#nav_menu li{
+    float: left;
+	width: 33%;
+    text-align: center;
+	text-decoration: none;
+    background-color: #800000;
+	color: white;
+	font-weight: bold;
+    display: block;
+    padding: 1em 0;
+}
+
+#nav_menu a{
+	
+	text-align: center;
+	
+	text-decoration: none;
+	
+	color: white;
+	font-weight: bold;
+}
+
+#nav_menu a.current{
+	color: yellow;
+}
+
+.container{
+    background-color: #800000;
+    color: white;
+    font-size: larger;
+    text-align: center;
+    margin: 25% 35% ;
+    padding: 0.5%;
+}
+
+.btn{
+    padding: 5%;
+    background-color: white;
+    color: #800000;
+    font-size: larger;
+}
