@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Timer</h1>
+    </header>
+    <section class="main">
+        <div class="image">
+            <img src="./images/bouncing-ball.gif" alt="image" />
+        </div>
+        <article class="content">
+            <div class="userinput">
+                <label for="hour"><h3>Hours</h3></label>
+                <input type="number" class="input" id="hoursInput">
+                <h2> : </h2>
+            </div>
+            <div class="userinput">
+                <label for="minute"><h3>Minutes</h3></label>
+                <input type="number" class="input" id="minsInput">
+                <h2> : </h2>
+            </div>
+            <div class="userinput">
+                <label for="sec"><h3>Seconds</h3></label>
+                <input type="number" class="input" id="secsInput">
+            </div> <br>
+            <div class="button">
+                <button class="submit">Enter</button>
+            </div>
+            <article class="date">
+                <div class="dateBox">
+                    <h2 class="hours"></h2>
+                    <h4>HOURS</h4>
+                </div>
+                <div class="dateBox">
+                    <h2 class="mins"></h2>
+                    <h4>MINS</h4>
+                </div>
+                <div class="dateBox">
+                    <h2 class="seconds"></h2>
+                    <h4>SECS</h4>
+                </div>
+            </article>
+        </article>
+
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>

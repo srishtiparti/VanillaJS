@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Garage Sale</title>
+    <script type="text/javascript" src="form.js">
+    </script>
+    <!-- Styling the html file -->
+    <style>
+
+        /*For the Background Image : https://pngtree.com/freebackground/cute-cartoon-dog-banner_1080797.html  */
+        /* Including image such that it is fixed and covers the screen */
+        body{
+            background-image: url(background.jpg);
+            background-repeat: no-repeat;
+            background-size: cover ;
+            background-attachment: fixed;
+        }
+
+        /* fixing form length and adding border and background */
+        form{
+            width: 450px;
+            border: 5px double brown;
+            border-radius: 10px;
+            margin: 0 33%;
+            background: burlywood;
+            padding: 30px;
+        }
+
+        /* fixing label length and adding font properties and padding */
+        label{
+            width: 170px;
+            display: inline-block;
+            font-size: 15px;
+            font-family: cursive;
+            padding: 5px;
+        }
+
+        /* adding font properties for input */
+        input{
+            font-size: 17px;
+            font-family: cursive;
+            margin: 10px 0;
+        }
+
+        /* adding font properties, background, width and margin for input type submit */
+        input[type="submit"]{
+            background:brown;
+            width: 400px;
+            margin: 20px;
+            font-family:  cursive;
+            font-weight: 900;
+            padding: 5px;
+            font-size: 30px;
+        }
+
+         /* adding font properties, width, padding and margin for input type select */
+        select{
+            width: 130px;
+            display: inline-block;
+            font-size: 15px;
+            font-family: cursive;
+            padding: 5px; 
+        }
+
+        /* adding font properties for error message */
+        .errorMsg{
+            color: red;
+            padding: 0;
+            margin: 0;
+            text-align: end;
+        }
+
+        /* adding table properties for receipt */
+        #receiptTable{
+            font-size: 20px;
+            color: rgb(88, 20, 20);
+            border: 3px solid rgb(141, 25, 25);
+            border-radius: 10px;
+            text-align: left;
+            width: 420px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Title of the page -->
+    <h1 align="center">Casper's Garage Sale</h1>
+    <h2 align="center"> Raising Money for Resuce Animals Welfare</h2>
+
+    <!-- creating a form that calls function formSubmit() when submit is clicked  -->
+    <form method="Post" onsubmit="return formSubmit();"  action="">
+
+        <!-- Input customer name from user -->
+        <label>Customer Name* :</label>
+        <input name="custName" id="custName" placeholder="Name"><br/>
+        
+        <h4 id="errorName" class="errorMsg"></h4>
+
+        <!-- Input Email from user -->
+        <label>Email* :</label>
+        <input type="email" name="email" id="email" placeholder="abc@def.ghi"> <br/>
+
+        <h4 id="errorEmail" class="errorMsg"></h4>
+
+        <!-- Input Credit Card number from user -->
+        <label> Credit Card :</label>
+        <input  name="credit card" id="creditCard" placeholder="xxxx-xxxx-xxxx-xxxx"><br/>
+
+        <h4 id="errorCard" class="errorMsg"></h4>
+
+        <!-- Input expiry from user -->
+        <label>Expiry :</label>
+        <input name="month" id="month" placeholder="MMM" style="width: 50px;">  <input name="year" id="year" placeholder="YYYY"style="width: 50px;"><br/>
+
+        <h4 id="errorMonth" class="errorMsg"></h4>
+        <h4 id="errorYear" class="errorMsg"></h4>
+
+        <p>* Don't forget to fill these fields</p>
+
+        <h2 align ="center">You're Pawrfect! Buy Generously</h1><br/>
+
+        <!-- Input Tshirt Quantity from user -->
+        <label>Dogtor T-shirt ($5):</label>
+        <input name="tshirt" id="tshirt" placeholder="Quantity"><br/> 
+
+        <!-- Input Pupsicle Quantity from user -->
+        <label>Pup-sicle (2$) :</label>
+        <select name="pupsicleFlavor" id="pupsicleFlavor">
+            <option disabled selected>Flavour</option>
+            <option>Strawberry</option>
+            <option>Chocolate</option>
+            <option>Butterscotch</option>
+            <option>Pineapple</option>
+        </select>
+        <input name="pupsicle" id="pupsicle" placeholder="Quantity" style="width: 100px;"><br/>
+
+        <!-- Input Caps Quantity from user -->
+        <label>Koalaty Caps ($2) :</label>
+        <input name="caps" id="caps" placeholder="Quantity"> <br/>
+
+        <!-- Input Mugs Quantity from user -->
+        <label> Paw-ffee Mugs($3)</label>
+        <input name="mugs" id="mugs" placeholder="Quantity"> <br/>
+
+        <!-- Input Pupcorn Quantity from user -->
+        <label> Pup-corn ($1) :</label>
+        <input name="pupcorn" id="pupcorn" placeholder="Quantity"> <br/>
+
+        <!-- Input Shampoo Quantity from user -->
+        <label> Shampoodle ($3) :</label>
+        <input name="shampoo" id="shampoo" placeholder="Quantity"> <br/>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+
+        <p>10% of your purchase or 10$ (whichever is higher) will be used for donation</p>
+
+        <!-- Publish receipt or error messages for order -->
+        <p id ='receipt' class="errorMsg"></p>
+</body>
+</html>
