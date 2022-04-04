@@ -1,0 +1,102 @@
+<!-- Set 1, Name- Srishti Parti, Student ID- 8693901 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- linking to external css file -->
+    <link rel="stylesheet" href="styles/HomePage.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Jack Wholesale Home Page</title>
+    <script>
+        // Jquery to create 3 toggle buttons to show details about Tshirts, jackets and caps
+        $(document).ready(function() {
+            // This code executes after the DOM is create
+            // To hide and show column with Id tshirt
+            $('#hideTshirt').click(function() {
+                $('#tshirt').toggle();
+            });
+
+            // To hide and show column with Id jacket
+            $('#hideJacket').click(function() {
+                $('#jacket').toggle();
+            });
+
+            // To hide and show column with Id cap
+            $('#hideCap').click(function() {
+                $('#cap').toggle();
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Title of the website -->
+    <header>
+        <h1>Jack's Wholesale Store</h1>
+        <h2>Best Price in the market</h2>
+    </header>
+
+    <!-- description about Jack's wholesale store and a bried about us -->
+    <h2>About US </h2>
+    <p>Jack Wholesale store was founded in 1997 on February 5th in Toronto. That day a Jack saw a child sitting outside a store in snow, desperate to get heat. Jack Dawson, who survived titanic disaster and 1947 hiroshima bombing wanted to help the child.
+        He bought the store so that the dog can stay in. He turned the store into a heaven of good quality clothes. However, due to high price, the bussiness was low. To overcome this problem, Jack started selling the products at really low price. Since
+        then the aim is to sell all products at wholesale. The child, Jack Dawson Jr, is now trying to continue his legacy.
+    </p>
+
+    <!-- dividing a row into three columns. each column will have an item and item's description 
+    The details are initially hidden and only buttons are visible.-->
+    <div class=row>
+
+        <!-- column 1 has details about tshirt. when T-shirt button is clicked, the column is toggled, that is, it becomes 
+        hidden if visible or visible if hidden. -->
+        <div class="column">
+            <button id="hideTshirt">T-Shirts</button>
+            <div id="tshirt" class="hidden">
+                <h3> T-Shirts</h3>
+                <h4> Price = $15 per piece + 13% tax</h4>
+                <h4> Material = 100% Cotton</h4>
+                <h4> Colors available = Red, Brown, White, Blue, Maroon, Yellow</h4>
+                <!--retrived from https://unsplash.com/photos/tWOz2_EK5EQ, Photo by Mohammad Salman  -->
+                <img src="Images/tshirt.jpg" alt="Tshirt Image" width="200" height="200" />
+            </div>
+        </div>
+
+        <!-- column 2 has details about jackets. when Jackets button is clicked, the column is toggled, that is, it becomes 
+        hidden if visible or visible if hidden -->
+        <div class=" column">
+            <button id="hideJacket">Jackets</button>
+            <div id="jacket" class="hidden">
+                <h3> Jackets</h3>
+                <h4> Price = $50 per piece + 13% tax</h4>
+                <h4> Material = 30% Wool 40% Rayon 30%Polyester</h4>
+                <h4> Colors available = Orange, Blue, Grey</h4>
+                <!--retrived from https://unsplash.com/photos/jddw6iA31sE, Photo by Markus Spiske  -->
+                <img src="Images/jacket.jpg" alt="Jacket Image" width="200" height="200" />
+            </div>
+        </div>
+
+        <!-- column 3 has details about Caps. when Caps button is clicked, the column is toggled, that is, it becomes 
+        hidden if visible or visible if hidden -->
+        <div class="column">
+            <button id="hideCap">Caps</button>
+            <div id="cap" class="hidden">
+                <h3> Caps</h3>
+                <h4> Price = $10 per piece + 13% tax</h4>
+                <h4> Material = 60% Cotton 40%Polyester</h4>
+                <h4> Colors available = Black, Red, Grey, White</h4>
+                <!--retrived from https://unsplash.com/photos/nEd_14IuaZE, Photo by Case Hubert  -->
+                <img src="Images/cap.jpg" alt="cap Image" width="200" height="200" />
+            </div>
+        </div>
+    </div>
+
+    <!-- To go to the shopping site, button is provided -->
+    <div class="button"> <a href="ShopPage.html"><button id="link">Time to shop!!</button></a>
+    </div>
+
+</body>
+
+</html>

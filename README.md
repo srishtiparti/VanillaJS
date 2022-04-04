@@ -41,5 +41,6 @@ A DOM project using setInterval and clearInterval to make a timer using user's i
 A DOM project to update and delete items from a grocery list and create a simple CRUD (Create, Read, Update, and Delete) application.
 ## 15) Garage Sale Fund Raiser
 A vanilla js project using forms and regex validation to validate input. A class assignment that helped me understand lots of concepts. For more details on what it includes, check this [Garage Sale](https://github.com/srishtiparti/garageSale). It also contains printing receipt and lots of puns.
-## 16)
+## 16)StorePage (jquery)
+A vanilla js project using jquery to toggle hide button. Check the three buttons on home page. The 2nd page is the receipt page where you can buy items and get a receipt. The phone number has validation.
 

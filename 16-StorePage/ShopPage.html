@@ -1,0 +1,63 @@
+<!-- Set 1, Name- Srishti Parti, Student ID- 8693901 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- linking to external css file -->
+    <link rel="stylesheet" href="styles/ShopPage.css">
+    <!-- linking to external javascript file -->
+    <script type="text/javascript" src="ShopPage.js"></script>
+    <title>Jack's wholesale</title>
+</head>
+
+<body>
+    <!-- creating a form that calls function formSubmit() when submit is clicked  -->
+    <div class="goBack">
+        <a href="./HomePage.html"><button class="backButton"> Store</button></a>
+    </div>
+    <form method="Post" onsubmit="return formSubmit();" action="">
+        <!-- Title of the form -->
+        <h1 align="center">Jack's Wholesale Store</h1>
+        <h2 align="center">Best Price in the market</h2>
+
+        <!-- Input customer name from user -->
+        <label>Customer Name :</label>
+        <input name="custName" id="custName" placeholder="Name"> <br />
+        <h4 id="errorName" class="errorMsg"></h4>
+
+        <!-- Input phone number from user -->
+        <label>Phone Number* :</label>
+        <input name="phNumber" id="phNumber" placeholder="(xxx)-xxx-xxxx"> <br />
+        <h4 id="errorNumber" class="errorMsg"></h4>
+
+        <h5>*Mandatory fields</h5>
+
+        <h2 align="center">Items</h2><br />
+
+        <!-- Input Tshirts Quantity from user -->
+        <label>T-shirt ($15):</label>
+        <input name="tshirts" id="tshirts" placeholder="Quantity"><br />
+        <h4 id="errorTshirts" class="errorMsg"></h4>
+
+        <!-- Input Caps Quantity from user -->
+        <label>Cap ($10) :</label>
+        <input name="caps" id="caps" placeholder="Quantity"> <br />
+        <h4 id="errorCaps" class="errorMsg"></h4>
+
+        <!-- Input Jackets Quantity from user -->
+        <label> Jacket ($50) :</label>
+        <input name="jackets" id="jackets" placeholder="Quantity"> <br />
+        <h4 id="errorJackets" class="errorMsg"></h4>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+
+        <!-- Publish receipt when submit is clicked -->
+        <p id='receipt'></p>
+    </form>
+</body>
+
+</html>

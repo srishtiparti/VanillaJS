@@ -1,0 +1,105 @@
+/* Set 1, Name- Srishti Parti, Student ID- 8693901*/
+
+
+/* Setting the background color of the body */
+
+body {
+    background-color: #274472;
+}
+
+
+/* setting form width, border, margin and background */
+
+form {
+    font-family: cursive;
+    width: 550px;
+    margin: 3% 33%;
+    background: #5885AF;
+    padding: 0 30px 30px 30px;
+    border: 5px double #C3E0E5;
+    border-radius: 10px;
+}
+
+
+/* setting label width, padding and font properties */
+
+label {
+    padding: 5px;
+    margin: 10px 0 15px 0;
+    width: 180px;
+    display: inline-block;
+    font-size: 15px;
+}
+
+
+/* setting font properties for input */
+
+input {
+    font-size: 20px;
+    margin: 10px 0 15px 0;
+    font-family: cursive;
+}
+
+
+/* setting font properties, background, font color, width and margin for input type submit */
+
+input[type="submit"] {
+    background: #274472;
+    color: #C3E0E5;
+    padding: 10px;
+    width: 400px;
+    margin: 5% 10% 2% 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+
+/* setting font family property for h1 and h2 */
+
+h1,
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* setting font properties for error message */
+
+.errorMsg {
+    color: darkred;
+    padding: 0;
+    margin: 0;
+    text-align: end;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* setting border, border, font properties and background for table */
+
+table {
+    border: 3px solid black;
+    padding: 5px;
+    background-color: #C3E0E5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* setting padding for td cells */
+
+td {
+    padding: 5px;
+}
+
+.backButton {
+    padding: .5rem 3rem;
+    border: none;
+    background-color: #C3E0E5;
+    font-size: 1.5rem;
+    color: #274472;
+    font-weight: bolder;
+}
+
+.goBack {
+    max-width: 5rem;
+    margin: 2rem auto;
+}

@@ -1,0 +1,73 @@
+/* Set 1, Name- Srishti Parti, Student ID- 8693901*/
+
+
+/* Setting the background color of the body */
+
+body {
+    background-color: #dbebfa;
+}
+
+
+/* Setting the margin and font size in the header */
+
+header {
+    text-align: center;
+    font-size: 150%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #334666;
+}
+
+
+/* Setting the width, font properties and background of all the buttons */
+
+button {
+    padding: .25rem 2rem;
+    min-width: 10rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    background-color: #274472;
+    color: #C3E0E5;
+}
+
+
+/* setting the three coloumns  */
+
+.column {
+    float: left;
+    width: 33.33%;
+    min-height: 20rem;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*  setting properties of the link button*/
+
+#link {
+    font-size: 2rem;
+    background-color: #274472;
+    padding: .25rem 4rem;
+}
+
+
+/* setting the display of content in hidden class to none*/
+
+.hidden {
+    display: none;
+}
+
+body {
+    padding: 2rem 10rem;
+}
+
+.button {
+    max-width: 200rem;
+    margin: 0 auto;
+}
