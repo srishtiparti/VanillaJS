@@ -39,6 +39,11 @@ A DOM project to make a countdown clock
 A DOM project using setInterval and clearInterval to make a timer using user's input.
 ## 14) Grocery list (Intermediate)
 A DOM project to update and delete items from a grocery list and create a simple CRUD (Create, Read, Update, and Delete) application.
+It uses
+- createElement()
+- createAttribute()
+- setAttributeNode()
+- appendChild()
 ## 15) Garage Sale Fund Raiser
 A vanilla js project using forms and regex validation to validate input. A class assignment that helped me understand lots of concepts. For more details on what it includes, check this [Garage Sale](https://github.com/srishtiparti/garageSale). It also contains printing receipt and lots of puns.
 ## 16)StorePage (jquery)
