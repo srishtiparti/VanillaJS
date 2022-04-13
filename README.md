@@ -47,6 +47,8 @@ It uses
 - parentNode
 - parentNode.firstChild.innerhtml
 - appendChild()
+- localStorage
+- Json.stringify
 ## 15) Garage Sale Fund Raiser
 A vanilla js project using forms and regex validation to validate input. A class assignment that helped me understand lots of concepts. For more details on what it includes, check this [Garage Sale](https://github.com/srishtiparti/garageSale). It also contains printing receipt and lots of puns.
 ## 16)StorePage (jquery)
