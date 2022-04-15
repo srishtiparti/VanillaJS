@@ -83,6 +83,7 @@ new functions used:
 - clearInterval()
 ## 14) Grocery list (Intermediate)
 A DOM project to update and delete items from a grocery list and create a simple CRUD (Create, Read, Update, and Delete) application.
+Stores data in local storage so the data isn't lost when page is refreshed.
 It uses
 - createElement()
 - createAttribute()
