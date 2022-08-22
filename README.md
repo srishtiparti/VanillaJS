@@ -1,4 +1,5 @@
 # VanillaJS
+Also check how they work/look like on https://srishtiparti.netlify.app/
 Some projects using DOM to make websites components such as buttons, tabs etc dynamic that are beginner friendly (at the start) and intermediate (end).
 
 # Content-
